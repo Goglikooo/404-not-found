@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content1">
+        <div class="notfound">404 NOT FOUND</div>
+        <div class="container">
+            <img src="Scarecrow.png" alt="">
+            <div class="text-field">
+                <div class="badnews">I have bad news for you</div>
+                <div class="span">The page you are looking for might be removed or is temporarily unavailable</div>
+                <button>BACK TO HOMEPAGE</button>
+            </div>
+        </div>
+        <div class="created">
+            <span>created by Goglikooo - devChallenges.io</span>
+        </div>
+    </div>
+</body>
+
+<style>
+    .notfound{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: monospace;
+    }
+    .container{
+        display: flex;
+        margin: auto;
+    }
+    html, body {
+    margin: 0px;
+    height: 100%;
+}
+.created{
+    /* background-color: #FFD25B; */
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:2px;
+
+}
+.content1{
+    /* background-color: yellowgreen; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+header {
+    height: 25px;
+    width: 233px;
+    font-family: monospace;
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.span{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+
+img{
+height: 414px;
+width: 539px;
+}
+
+.text-field{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 414px;
+    width: 539px;
+}
+
+button{
+    
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 30px;
+    height: 68px;
+    width: 216px;
+    border-radius: 0px;
+    background: #333333;
+    color: white;
+
+}
+
+button:hover{
+    color:  #FFD25B;
+
+;
+}
+
+.badnews{
+font-family: monospace;
+font-size: 64px;
+font-weight: 700;
+}
+
+@media screen and (max-width: 812px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+    }
+    img{
+    height: 390px;
+    width: 440px;
+    }
+    .badnews{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    .span{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+    }
+    button {
+        height: 68px;
+        width: 216px;
+        left: 24px;
+        top: 726px;
+        border-radius: 0px;
+    }
+    img {
+        background-color: aqua;
+        margin: auto;
+    }
+    .text-field{
+        margin: auto;
+        
+    }
+    .notfound{
+        margin-left: 60px;
+    }
+
+}
+</style>
+</html>
